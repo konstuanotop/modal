@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.btn_open {
+  padding: 10px;
+  background-color: rgb(130, 159, 184);
+  border-radius: 20px;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.modal {
+  padding: 40px;
+  margin: 10px;
+  width: 500px;
+  position: relative;
+}
+
+.btn_close {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
